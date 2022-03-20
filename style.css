@@ -1,0 +1,52 @@
+.header{
+ width: 100%;
+ height: 80vh;
+ position: relative;
+ background-color: #ffffff;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0px 10px;
+}
+.logo{
+    cursor: pointer;
+    width: 120px;
+    height: auto;
+}
+.manu-icon{
+    cursor: pointer;
+    width: 30px;
+    height: auto;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    right: 40px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+nav ul li a:hover{
+    color: #071cf0;
+}
+.px-foot p{
+    margin-bottom: 0;
+}
+a i{
+    color: black;
+    
+}
+a i:hover{
+    color: #071cf0;
+}
